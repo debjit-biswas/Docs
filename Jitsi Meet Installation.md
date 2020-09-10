@@ -300,3 +300,30 @@ server {
     ...
 }
 ```
+
+
+
+# JWT Authentication: 
+
+Create your JWT token on jwt.io
+
+```bash
+Payload example:
+{
+  "context": {
+    "user": {
+      "name": "Debjit Biswas",
+      "email": "debjit.biswas@softofficepro.com",
+"id": "abcd:a1b2c3-d4e5f6-0abc1-23de-abcdef01fedcba"
+    }
+  },
+  "aud": "<domain of the front-end like:konnect.vc>",
+  "iss": "app_id",
+  "sub": "<domain for the konnect engine like:meet.softofficepro.com>",
+  "room": "room_name"
+}
+
+```
+Use:
+app_id = iss
+app_secret = base64UrlEncode(payload)

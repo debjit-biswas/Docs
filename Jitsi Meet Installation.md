@@ -12,6 +12,12 @@ Enter in sudo user
 sudo su
 ```
 
+create xxx.sh file with the bash commands below and 
+```bash
+chmod 777 xxx.sh
+./xxx.sh
+```
+
 Run the follow script to install lua and her dependencies, and prosody with fixes.
 After finish, VM will be restarted
 ```bash

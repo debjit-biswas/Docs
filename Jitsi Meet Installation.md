@@ -1,6 +1,9 @@
 # YouTube Tutorial
 https://www.youtube.com/watch?v=EiQ9ZuGjg1U&t=2099s
 
+# Rocket Chat with JWT
+https://medium.com/@szewong/rocket-chat-part-3-installing-jitsi-with-jwt-for-secure-video-conferencing-b6f909e7f92c
+
 # Install lua and dependencies
 
 Enter in sudo user

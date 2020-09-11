@@ -327,3 +327,31 @@ Payload example:
 Use:
 app_id = iss
 app_secret = base64UrlEncode(payload)
+
+
+Prosody manual plugin configuration
+```bash
+/etc/prosody/conf.avail/<host>.cfg.lua
+```
+Konnect Meet config
+```bash
+/etc/jitsi/meet/<host>-config.js
+```
+Jicofo sip-communicator 
+```bash
+/etc/jitsi/jicofo/sip-communicator.properties
+```
+jicofo config 
+```bash
+/etc/jitsi/jicofo/config
+```
+videobridge config
+```bash
+/etc/jitsi/videobridge/config
+```
+restart/start/stop all services
+```bash
+systemctl restart nginx prosody jicofo jitsi-videobridge2
+systemctl stop nginx prosody jicofo jitsi-videobridge2
+systemctl start nginx prosody jicofo jitsi-videobridge2
+```
